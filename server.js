@@ -92,8 +92,8 @@ app.get('/users', async (req, res) => {
   }
 });
 
-app.listen(PORT, async () => {
-  console.log(`Server is running on port ${PORT}`);
+app.listen(port, async () => {
+  console.log(`Server is running on port ${port}`);
   await verifySupabaseConnection();
   // query and print all rows from USER table at startup
   await showUserTableRows();
