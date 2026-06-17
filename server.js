@@ -10,7 +10,7 @@ const chatRouter = require('./routes/chat');
 const supabase = require('./lib/supabase');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const port = process.env.PORT || 3000;
 const BASE_URL = process.env.BASE_URL || 'https://backend-repo-izx5.onrender.com';
 const SUPABASE_URL = process.env.SUPABASE_URL;
 const SUPABASE_KEY = process.env.SUPABASE_KEY;
